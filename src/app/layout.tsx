@@ -1,7 +1,7 @@
 import '@tabler/core/dist/css/tabler.min.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.scss';
+import '../styles/index.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
