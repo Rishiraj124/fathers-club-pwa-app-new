@@ -6,3 +6,4 @@ export async function GET(
   //If we are not using request parameter then rename to _request
   return Response.json({ id: id });
 }
+export const runtime = 'edge';

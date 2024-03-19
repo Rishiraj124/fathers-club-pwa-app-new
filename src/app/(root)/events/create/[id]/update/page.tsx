@@ -11,3 +11,4 @@ const UpdateEvent = () => {
   );
 };
 export default UpdateEvent;
+export const runtime = 'edge';
